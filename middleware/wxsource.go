@@ -15,7 +15,7 @@ func WXSourceMiddleWare(c *gin.Context) {
 		fmt.Println("[WXSourceMiddleWare]from wx")
 		c.Next()
 	//} else {
-		c.Abort()
+	//	c.Abort()
 	//	c.JSON(http.StatusUnauthorized, errno.ErrNotAuthorized)
 //	}
 }
