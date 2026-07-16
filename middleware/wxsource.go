@@ -3,7 +3,6 @@ package middleware
 import (
 	"fmt"
 
-	"github.com/WeixinCloud/wxcloudrun-wxcomponent/comm/errno"
 
 	"github.com/gin-gonic/gin"
 )
